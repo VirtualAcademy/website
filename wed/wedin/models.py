@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils.encoding import smart_unicode
+from tinymce.models import HTMLField
 
 # Create your models here.
 class Hero(models.Model):
@@ -51,7 +52,7 @@ class Facility(models.Model):
 	
 class Story(models.Model):
 	title=models.CharField(max_length=200,blank=False)
-	content=models.TextField()
+	content=HTMLField()
 	created=models.DateTimeField(auto_now_add=True,auto_now=False)
 	updated=models.DateTimeField(auto_now_add=False,auto_now=True)
 	

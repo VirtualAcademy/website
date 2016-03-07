@@ -133,13 +133,12 @@
                             </ol>
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
+							{% autoescape off %}
 							{% for story in stories %}
 								{% if story.id == 1 %}
                                 <div class="item active">
                                     <h4 class="item-title text-center"><span class="icon-couple love-icon"></span>{{story.title}}</h4>
-                                    {% blocktrans with store=story.content %}
-									{{store}}
-									{% endblocktrans %}
+									{{story.content}}
                                 </div><!--//item-->
 								{% elif story.id == 2 %}
                                 <div class="item">
@@ -153,6 +152,7 @@
                                 </div><!--//item-->
 								{% endif %}
 							{% endfor %}   
+							{% endautoescape %}
                             </div><!--//carousel-inner-->                
                         </div><!--//story-carousel-->
                     </div>  
