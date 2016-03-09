@@ -4,6 +4,7 @@ from .models import Hero, Event, Direction, Facility, Story, Giftregistry
 # Create your views here.
 def	home(request):
 	if request.method == 'POST':
+		print request
 		return
 	else:
 		events=Event.objects.all()

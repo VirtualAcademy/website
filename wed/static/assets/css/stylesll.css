@@ -22,20 +22,38 @@ p {
   line-height: 1.5;
 }
 a {
-  color: #84D6F8;
+  color: #f4af9c;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
+
+iframe{
+	border:none;
+	background: #fff;
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+
+	-moz-box-shadow: 4px 4px 14px #000;
+	-webkit-box-shadow: 4px 4px 14px #000;
+	box-shadow: 4px 4px 14px #000;
+	position:fixed;
+
+	}
+
 a:hover,
 a:active {
   text-decoration: underline;
-  color: #6ccef7;
+  color: #f19c85;
 }
 a:focus {
   text-decoration: none;
-  color: #6ccef7;
+  color: #f19c85;
   outline: none;
 }
 .btn,
@@ -66,7 +84,7 @@ a.btn:focus {
 }
 a.btn-primary,
 .btn-primary {
-  background: #84D6F8;
+  background: #f4af9c;
   border: none;
   color: #fff;
   padding: 15px 45px;
@@ -78,7 +96,7 @@ a.btn-primary.active:active,
 .btn-primary.active:active,
 a.btn-primary.active:focus,
 .btn-primary.active:focus {
-  background: #6ccef7;
+  background: #f19c85;
   border: none;
   color: #fff;
   outline: none;
@@ -88,21 +106,21 @@ a.btn-primary.active:focus,
 }
 a.btn-primary:hover,
 .btn-primary:hover {
-  background: #6ccef7;
+  background: #f19c85;
   border: none;
   color: #fff;
   outline: none;
 }
 a.btn-primary:active,
 .btn-primary:active {
-  background: #6ccef7;
+  background: #f19c85;
   border: none;
   color: #fff;
   outline: none;
 }
 a.btn-primary:focus,
 .btn-primary:focus {
-  background: #6ccef7;
+  background: #f19c85;
   border: none;
   color: #fff;
   outline: none;
@@ -151,7 +169,7 @@ textarea {
   -webkit-appearance: none;
 }
 label {
-  color: #6ccef7;
+  color: #f19c85;
 }
 .form-group {
   margin-bottom: 30px;
@@ -163,10 +181,10 @@ label {
   display: inline-block;
 }
 .text-highlight {
-  color: #84D6F8;
+  color: #f4af9c;
 }
 #topcontrol {
-  background: #84D6F8;
+  background: #f4af9c;
   color: #fff;
   text-align: center;
   display: inline-block;
@@ -188,7 +206,7 @@ label {
   z-index: 30;
 }
 #topcontrol:hover {
-  background: #9cdef9;
+  background: #f7c2b3;
 }
 #topcontrol .fa {
   position: relative;
@@ -322,7 +340,7 @@ label {
   float: left;
 }
 .navbar-toggle .icon-bar {
-  background-color: #84D6F8;
+  background-color: #f4af9c;
   height: 3px;
   -webkit-opacity: 0.8;
   -moz-opacity: 0.8;
@@ -349,7 +367,7 @@ label {
   outline: none;
 }
 .nav > li.active > a {
-  color: #84D6F8;
+  color: #f4af9c;
 }
 /* ======= Footer ======= */
 .footer {
@@ -358,10 +376,10 @@ label {
   font-weight: normal;
 }
 .footer a {
-  color: #84D6F8;
+  color: #f4af9c;
 }
 .footer a:hover {
-  color: #54c6f5;
+  color: #ef8a6e;
 }
 .footer-content {
   padding: 30px 15px;
@@ -372,7 +390,7 @@ label {
 /* ======= Hero Section ======= */
 .hero-section {
   margin-top: 55px;
-  background: #262220 url('../images/hero-bg.jpg') no-repeat 50% top;
+  background: #262220 url('../images/nfor.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -463,7 +481,7 @@ label {
   font-size: 32px;
   width: 55px;
   display: inline-block;
-  color: #84D6F8;
+  color: #f4af9c;
   vertical-align: middle;
 }
 .wedding-section .cols-wrapper {
@@ -522,7 +540,7 @@ label {
 .countdown-box span.number {
   font-size: 38px;
   display: block;
-  color: #54c6f5;
+  color: #ef8a6e;
   font-weight: bold;
 }
 .countdown-box span.unit {
@@ -678,13 +696,13 @@ label {
   color: #413a38;
   background: transparent;
   border: none;
-  border-bottom: 4px solid #84D6F8;
+  border-bottom: 4px solid #f4af9c;
   font-weight: bold;
 }
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   border: none;
-  border-bottom: 4px solid #84D6F8;
+  border-bottom: 4px solid #f4af9c;
   background: transparent;
   color: #413a38;
 }
@@ -704,15 +722,15 @@ label {
 }
 .blueimp-gallery > .prev,
 .blueimp-gallery > .next {
-  border-color: #84D6F8;
-  color: #84D6F8;
+  border-color: #f4af9c;
+  color: #f4af9c;
 }
 .blueimp-gallery > .prev:hover,
 .blueimp-gallery > .next:hover {
-  color: #b4e6fb;
+  color: #f9d4ca;
 }
 .blueimp-gallery > .close {
-  color: #84D6F8 !important;
+  color: #f4af9c !important;
 }
 /* ======= Gift Section ======= */
 .gift-section {
@@ -731,7 +749,7 @@ label {
 }
 .message-container .thank-you {
   font-size: 46px;
-  color: #84D6F8;
+  color: #f4af9c;
   margin-bottom: 15px;
 }
 .message-container .signature {
@@ -782,7 +800,7 @@ label {
 .comments-section {
   padding-top: 60px;
   padding-bottom: 60px;
-  background: #84D6F8 url('../images/heart-pattern.png') repeat center top;
+  background: #f4af9c url('../images/heart-pattern.png') repeat center top;
 }
 .comments-section .title {
   font-size: 24px;
@@ -869,7 +887,7 @@ label {
   margin-bottom: 15px;
 }
 .modal .section-title {
-  color: #54c6f5;
+  color: #ef8a6e;
   font-size: 16px;
 }
 .modal .section-title .fa {
@@ -897,7 +915,7 @@ label {
   font-size: 16px;
 }
 .modal .facilities-list li .fa {
-  color: #84D6F8;
+  color: #f4af9c;
   display: inline-block;
   margin-right: 5px;
 }
@@ -963,7 +981,7 @@ label {
   }
   .header .nav > li > a:focus,
   .header .nav > li > a:hover {
-    color: #84D6F8;
+    color: #f4af9c;
   }
   .title {
     font-size: 42px;
@@ -1123,10 +1141,10 @@ label {
   color: #fff;
 }
 .config-panel {
-  width: 160px;
+  width: 230px;
+  height: 70px;
   display: none;
   background: #000000;
-  color: #fff;
   padding: 15px;
   -webkit-border-top-right-radius: 0;
   -webkit-border-bottom-right-radius: 0;
@@ -1168,49 +1186,33 @@ label {
 .config-panel #color-options li.theme-1 a {
   background: #f4af9c;
 }
-.config-panel #color-options li.theme-2 a {
-  background-color: #36b3a8;
-}
-.config-panel #color-options li.theme-3 a {
-  background-color: #A9A9D6;
-}
-.config-panel #color-options li.theme-4 a {
-  background-color: #76D777;
-}
-.config-panel #color-options li.theme-5 a {
-  background-color: #fd767b;
-}
-.config-panel #color-options li.theme-6 a {
-  background-color: #84D6F8;
-}
-.config-panel #color-options li.theme-7 a {
-  background-color: #bec76a;
-}
-.config-panel #color-options li.theme-8 a {
-  background-color: #FBCC6A;
-}
 .config-panel .close {
   position: absolute;
-  right: 5px;
-  top: 5px;
+  right: 3px;
+  top: 3px;
   color: #fff;
 }
 .config-panel .close .fa {
   color: #fff;
 }
-/* Blue */
+/* Pink */
+/*
 .hero-box .date {
-  background-image: url('../images/ribbon-blue.svg');
+    background-image: url('../images/ribbon-lime.svg');
 }
+
 .title-deco-left {
-  background-image: url('../images/rose-left-blue.svg');
+    background-image: url('../images/rose-left-pink.svg');
 }
+
 .title-deco-right {
-  background-image: url('../images/rose-right-blue.svg');
+    background-image: url('../images/rose-right-pink.svg');
 }
+
 .message-container {
-  background-image: url('../images/frame-blue.png');
+    background-image: url('../images/frame-pink.png');
 }
 .couple-profile {
-  background-image: url('../images/heart-couple-blue.png');
+    background: url('../images/heart-couple-pink.png');
 }
+*/

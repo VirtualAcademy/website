@@ -79,19 +79,19 @@ $(document).ready(function() {
     /* ======= Google Map ======= */
     map = new GMaps({
         div: '#map',
-        lat: 50.980187,
-        lng: -3.179117,
+        lat: -5.952655,
+        lng: -169.841755,
         scrollwheel: false,
-        zoom: 14,
+        zoom: 15,
     });
     
     map.addMarker({
-        lat: 50.980187,
-        lng: -3.179117,
+        lat: -5.952655,
+        lng: -169.841755,
         verticalAlign: 'top',
         title: 'Ceremony Location',  
         infoWindow: {
-            content: '<div class="note">Ceremony</div><h4 class="map-title script">St Paul\'s Church</h4><div class="address"><span class="region">Address line goes here</span><br><span class="postal-code">Postcode</span><br><span class="city-name">City</span></div>'
+            content: '<div class="note">Ceremony</div><h4 class="map-title script">Nkani-nkwi Hall</h4><div class="address"><span class="region"> Mankon</span><br><span class="postal-code">Postcode</span><br><span class="city-name">Bamenda</span></div>'
         }
         
         
@@ -99,11 +99,11 @@ $(document).ready(function() {
     
 
     map.addMarker({
-        lat: 50.969747,
-        lng: -3.199985,
+        lat: -5.95265,
+        lng: -169.84,
         title: 'Reception Location',      
         infoWindow: {
-            content: '<div class="note">Reception</div><h4 class="map-title script">The Manor House</h4><div class="address"><span class="region">Address line goes here</span><br><span class="postal-code">Postcode</span><br><span class="city-name">City</span></div>'
+            content: '<div class="note">Reception</div><h4 class="map-title script">Nkani-nkwi Hall</h4><div class="address"><span class="region"> Mankon</span><br><span class="postal-code">Postcode</span><br><span class="city-name">Bamenda</span></div>'
         } 
         
     });
@@ -114,39 +114,6 @@ $(document).ready(function() {
     google.maps.event.trigger(map.markers[1], 'click');
     
     
-    
-    
-
-    // /* ======= Instagram ======= */
-    // //Instafeed.js - add Instagram photos to your website
-    // //Ref: http://instafeedjs.com/
-
-    // var loadButton = document.getElementById('load-more');
-    // var feed = new Instafeed({
-            // limit: 28,
-            // get: 'tagged',
-            // tagName: 'filmweddingphotographer', /* Remember to use a unique hastag for the wedding */
-            // clientId: "467ede5a6b9b48ae8e03f4e2582aeeb3", /* IMPORTANT: REPLACE THE DEMO CLIENTID WITH YOUR CLIENTID! Find out your clientID: http://darkwhispering.com/how-to/get-a-instagram-client_id-key */
-            // resolution: 'thumbnail',
-            // template: '<a class="instagram-item item" href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /></a>',
-            // sortBy: 'most-liked',
-          // // every time we load more, run this function
-          // after: function() {
-            // // disable button if no more results to load
-            // if (!this.hasNext()) {
-              // loadButton.setAttribute('disabled', 'disabled');
-            // }
-          // },
-    // });
-
-    // // bind the load more button
-    // loadButton.addEventListener('click', function() {
-      // feed.next();
-    // });
-
-    // // run our feed!
-    // feed.run();
-
     
     /* ===== Packery ===== */
     //Ref: http://packery.metafizzy.co/
