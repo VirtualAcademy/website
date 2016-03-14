@@ -1,0 +1,14 @@
+applications:
+- name: wedin
+  memory: 512M
+# This is command provided by cf -c option
+  command: bash ./run.sh
+# command: python manage.py syncdb --noinput; gunicorn wedin  
+# command: python manage.py runserver $PORT
+# command: python manage.py -c "import os; print os.getcwd()"
+# New Buildpack: https://developer.ibm.com/answers/questions/
+# buildpack: https://github.com/ephoning/heroku-buildpack-python
+  buildpack: https://github.com/cloudfoundry/python-buildpack
+  path: .
+  services:
+  - MySQL-wed
